@@ -1,2 +1,3 @@
 #!/bin/bash
-pm2 start server.js --name cf-node-api
+su - ubuntu
+pm2 start ./bin/www --name cf-test-deploy-api
