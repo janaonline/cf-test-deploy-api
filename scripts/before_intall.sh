@@ -18,3 +18,7 @@ nvm install $NODE_VERSION
 # nvm install 14 # for older UI
 nvm use $NODE_VERSION
 nvm alias default $NODE_VERSION
+
+# Install PM2 globally
+# echo "Installing PM2..."
+npm install -g pm2
