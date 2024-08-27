@@ -1,8 +1,6 @@
 #!/bin/bash
-ls
-
 NODE_VERSION="20" 
-
+cd /home/ubuntu
 # Install NVM (Node Version Manager)
 # echo "Installing NVM..."
 # curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
