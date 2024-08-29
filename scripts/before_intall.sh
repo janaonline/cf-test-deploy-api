@@ -1,4 +1,5 @@
 #!/bin/bash
+# Before install
 cd /home/ubuntu
 
 NODE_VERSION="20" 
