@@ -1,3 +1,3 @@
 #!/bin/bash
 #
-pm2 
+pm2 kill
