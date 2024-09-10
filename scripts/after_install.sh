@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo cp webserver/cityfinance.conf /etc/nginx/sites-available/cityfinance.conf
-sudo ln -S /etc/nginx/sites-available/cityfinance.conf /etc/nginx/sites-enabled/cityfinance.conf
+aws s3 cp s3://cf-code-deployment/default /etc/nginx/sites-available/default
 sudo service nginx restart
